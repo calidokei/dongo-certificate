@@ -1,0 +1,241 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffca37;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.input-section, .output-section {
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  vertical-align: top;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+input[type="text"], input[type="number"], input[type="file"] {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+input[type="radio"] {
+  margin: 0 10px 20px 0;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* 点線の枠と、アイコンが表示される場所のスタイル */
+#previewPhoto {
+  display: none; /* 初期状態では画像は表示しない */
+}
+
+#placeholderText {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.certificate {
+  border: 2px solid #333;
+  padding: 20px;
+  background-color: #fff;
+  width: 80%;
+}
+
+.certificate h2 {
+  text-align: center;
+}
+
+.certificate img {
+  display: block;
+  margin: 20px auto;
+}
+
+#nameAndPhoto {
+  display: flex;
+  justify-content: space-between; /* 名前と写真を左右に分ける */
+  align-items: center;
+}
+
+#previewPhoto {
+  display: none;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#placeholderText {
+  max-width: 100px;
+  max-height: 100px;
+  border: 1px dashed #000;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .input-section, .output-section {
+    width: 80%;
+  }
+}
+
+#copy-page {
+  display: inline-block;
+  width: 160px;
+  padding: 8px 0;
+  font-size: 1rem;
+  text-align: center;
+  color: #666;
+  border-radius: 6px;
+  background: #c7c7c7;
+  outline: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+#copy-page:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.zen-maru-gothic-light {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.zen-maru-gothic-regular {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zen-maru-gothic-medium {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.zen-maru-gothic-bold {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.zen-maru-gothic-black {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+dl {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+dl dd,
+dl dt {
+  display: block;
+}
+
+.container {
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  vertical-align: top;
+}
+
+.update .inner dt {
+  width: 120px;
+}
+
+.update .inner dd {
+  width: calc(100% - 150px);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+ul.li-a {
+  list-style: square inside;
+  margin: 1em 0.5em;
+}
+
+ul.li-a li {
+  margin-bottom: 0.5em;
+}
+
+ul.li-b {
+  list-style: disc inside;
+  margin: 1em 0.5em;
+}
+
+ul.li-b li {
+  margin-bottom: 0.5em;
+}
+
+ol.li-a {
+  list-style: decimal inside;
+  margin: 1em 0.5em;
+}
+
+ol.li-a li {
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+}
+
+ol.li-b {
+  list-style: upper-alpha inside;
+  margin: 1em 0.5em;
+}
+
+ol.li-b li {
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+}
+
+@media (max-width: 575px) {
+  .updateinfo .inner {
+    font-size: 12px;
+  }
+  .updateinfo .inner dt {
+    width: 80px;
+  }
+}
