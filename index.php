@@ -1,7 +1,7 @@
 <!--
 ==============================================================
-どん語検定合格証 ver.1.0
-Released: 2024/10/01 Tue.
+どん語検定合格証 ver.1.2
+Released: 2024/10/07 Tue.
 製作者：カリドけい
 https://dongo.calidokei.com/
 ==============================================================
@@ -14,7 +14,7 @@ https://dongo.calidokei.com/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>どん語検定合格証書</title>
     <meta name="description" content="架空の資格「どん語検定」の合格証書を作れます。">
-    <meta name="keywords" content="阪神タイガース,岡田彰布, どんでん, どんコメ, どん語, プロ野球" />
+    <meta name="keywords" content="阪神タイガース, 岡田彰布, どんでん, どんコメ, どん語, プロ野球" />
     <meta name="twitter:card" content="susummary_large_imagemmary" />
     <meta name="twitter:title" content="どん語検定合格証書" />
     <meta name="twitter:description" content="架空の資格「どん語検定」の合格証書を作れます。" />
@@ -145,11 +145,12 @@ https://dongo.calidokei.com/
 
     <button onclick="copyUrl()">URLをコピー</button>
 
-    <a href="https://marshmallow-qa.com/ns5xfwmfxfbj3f1">メッセージ</a>
+    <a href="https://marshmallow-qa.com/ns5xfwmfxfbj3f1?t=Kx2nm0&utm_medium=url_text&utm_source=promotion">マシュマロ</a> <a href="https://wavebox.me/wave/4lz81nai04mnacc5/">Wavebox</a>
 
 <p>ver.1.2 <a href="updatenews.html">管理人＆更新情報</a></p>
+<p><a href="https://github.com/calidokei/dongo-certificate">GitHub</a></p>
 <p><a href="index.php">https://dongo.calidokei.com/</a> / Master: カリドけい</p>
-<p>Copyright&copy;2024 <a href="index.php">どん語検定合格証</a> All Rights Reserved.</p>
+<p>Copyright&copy;2024-2025 <a href="index.php">どん語検定合格証</a> All Rights Reserved.</p>
 <p>このサイトはリンクフリーです。</p>
 <p>このサイトはGoogleChrome, Firefoxで動作確認済みです。</p>
 
